@@ -16,7 +16,7 @@
         <li>Home</li>
         <li>Sobre</li>
         <li>Contato</li>
-        <li>Entrar</li>
+        <li onclick="openNav()"><button>Entrar</button></li>
       </ul>
     </nav>
   </header>
@@ -58,6 +58,27 @@
       <img src="assets/brands/corona.png" alt="">
     </div>
   </section>
+  <div id="drawer">
+    <div class="drawer-wrapper">
+      <div class="drawer-header">
+        <h3>Login</h3>
+        <button class="closebtn" onclick="closeNav()">&times;</button>
+      </div>
+      <div class="input-container">
+        <div>
+          <span>Login</span>
+          <input type="text" placeholder="Usuário">
+        </div>
+        <div>
+          <span>Senha</span>
+          <input type="text" placeholder="Senha">
+        </div>
+        <button>Entrar</button> 
+      </div>
+      <img src="assets/seucaneco.png" alt="">
+    </div>
+  </div>
   <footer id="footer"><span>Seu Caneco 2022&copy;</span></footer>
+  <script src="script.js" ></script>
 </body>
 </html>
