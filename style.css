@@ -441,3 +441,11 @@ body {
   width: 50%;
   text-align: left;
 }
+
+.exit {
+  position: absolute;
+  top: 21vh;
+  right: 26vW;
+  text-decoration: none;
+  color: #202020;
+}
