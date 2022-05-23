@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <title>Seu Caneco</title>
+  </head>
+  <body>
+    <header id="header">
+      <img class="logo" src="assets/seucaneco.png" alt="card" />
+      <nav>
+        <ul class="nav-items">
+          <li>Home</li>
+          <li>Shows</li>
+          <li>Cardápio</li>
+          <li onclick="openNav()"><button>Entrar</button></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="banner-show banner-secondary">
+      <div class="slogan">
+        <h3>Shows</h3>
+      </div>
+    </div>
+    <main class="menu">
+      <section class="shows">
+        <h2 class="title">Shows</h2>
+        <table class="table" id="tableProduct">
+          <thead class="table-header">
+            <tr>
+              <th>Show</th>
+              <th>Data</th>
+              <th>Hora</th>
+            </tr>
+          </thead>
+          <tbody class="table-body">
+            <tr class="table-row">
+              <th>Calcinha Preta</th>
+              <th>12/05/2022</th>
+              <th>19:00</th>
+            </tr>
+            <tr class="table-row">
+              <th>Jackson do Pandeiro</th>
+              <th>06/04/2022</th>
+              <th>20:00</th>
+            </tr>
+            <tr class="table-row">
+              <th>Dudu Batera</th>
+              <th>06/06/2022</th>
+              <th>21:00</th>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+    <footer id="footer"><span>Seu Caneco 2022&copy;</span></footer>
+    <script src="script.js"></script>
+  </body>
+</html>
