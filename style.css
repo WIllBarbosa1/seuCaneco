@@ -347,3 +347,97 @@ body {
   justify-content: center;
   padding: 20px;
 }
+
+.modal {
+  position: absolute;
+  z-index: 5;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-container {
+  background-color: #D6D6D6;
+  width: 50vw;
+  height: 60vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 2px solid #202020;
+}
+
+.modal-content {
+  width: 90%;
+  height: 80%;
+  padding: 20px;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.modal-content > input {
+  padding: 5px;
+  width: 50%;
+}
+
+.modal-content > label {
+  text-align: left !important;
+  width: 50%;
+}
+
+.modal-buttons {
+  width: 43%;
+  text-align: right;
+}
+
+.primary-button {
+  padding: 5px;
+  background-color: #333533;
+  border: 1px solid #202020;
+  border-radius: 7px;
+  cursor: pointer;
+  color: #D6D6D6;
+  transition: all linear 0.5s;
+}
+
+.secondary-button {
+  padding: 5px;
+  background-color: #333533;
+  border: 1px solid #202020;
+  border-radius: 7px;
+  cursor: pointer;
+  color: #D6D6D6;
+  transition: all linear 0.5s;
+}
+
+.primary-button:hover {
+  background-color: #202020;
+  
+}
+
+.secondary-button:hover {
+  background-color: #202020;
+  
+}
+
+.modal-radio {
+  text-align: left;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.sub-title {
+  width: 50%;
+  text-align: left;
+}

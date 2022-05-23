@@ -72,6 +72,38 @@
           </tbody>
         </table>
       </section>
+      <div class="modal">
+        <div class="modal-container">
+          <h2>Produto</h2>
+          <div class="modal-content">
+            <label for="productId">Id</label>
+            <input type="text" name="id" id="productId" />
+            <label for="productName">Nome</label>
+            <input type="text" name="nome" id="productName" />
+            <label for="productValue">Preço</label>
+            <input type="text" name="preco" id="productValue" />
+            <label for="productProvider">Fornecedor</label>
+            <input type="text" name="provider" id="productProvider" />
+            <label for="productProviderEmail">Email do fornecedor</label>
+            <input type="email" name="email" id="productProviderEmail" />
+            <p class="sub-title">Tipo</p>
+            <div class="modal-radio">
+              <div>
+                <input type="radio" name="tipe" value="Bebida" />
+                <label for="Bebida">Bebida</label>
+              </div>
+              <div>
+                <input type="radio" name="tipe" value="Petisco" />
+                <label for="Petisco">Petisco</label>
+              </div>
+            </div>
+          </div>
+          <div class="modal-buttons">
+            <button class="secondary-button">Cancelar</button>
+            <button class="primary-button">Salvar</button>
+          </div>
+        </div>
+      </div>
     </main>
     <footer id="footer"><span>Seu Caneco 2022&copy;</span></footer>
     <script src="script.js"></script>
